@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		F4D921DE1C998DA500605BC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D921DD1C998DA500605BC8 /* AppDelegate.swift */; };
-		F4D921E01C998DA500605BC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D921DF1C998DA500605BC8 /* ViewController.swift */; };
 		F4D921E31C998DA500605BC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D921E11C998DA500605BC8 /* Main.storyboard */; };
 		F4D921E51C998DA500605BC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D921E41C998DA500605BC8 /* Assets.xcassets */; };
 		F4D921E81C998DA500605BC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D921E61C998DA500605BC8 /* LaunchScreen.storyboard */; };
+		F4D921F01C998DCA00605BC8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D921EF1C998DCA00605BC8 /* GameScene.swift */; };
+		F4D921F21C998E1100605BC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D921F11C998E1100605BC8 /* ViewController.swift */; };
+		F4D921F61C998EBF00605BC8 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D921F51C998EBF00605BC8 /* SpriteKit.framework */; };
+		F4D921F81C99940F00605BC8 /* button03a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4D921F71C99940F00605BC8 /* button03a.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4D921DA1C998DA500605BC8 /* FlappyBird2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D921DD1C998DA500605BC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4D921DF1C998DA500605BC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4D921E21C998DA500605BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4D921E41C998DA500605BC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D921E71C998DA500605BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4D921E91C998DA500605BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D921EF1C998DCA00605BC8 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F4D921F11C998E1100605BC8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4D921F51C998EBF00605BC8 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		F4D921F71C99940F00605BC8 /* button03a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button03a.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D921F61C998EBF00605BC8 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +45,7 @@
 		F4D921D11C998DA500605BC8 = {
 			isa = PBXGroup;
 			children = (
+				F4D921F51C998EBF00605BC8 /* SpriteKit.framework */,
 				F4D921DC1C998DA500605BC8 /* FlappyBird2 */,
 				F4D921DB1C998DA500605BC8 /* Products */,
 			);
@@ -54,8 +62,10 @@
 		F4D921DC1C998DA500605BC8 /* FlappyBird2 */ = {
 			isa = PBXGroup;
 			children = (
+				F4D921F71C99940F00605BC8 /* button03a.mp3 */,
 				F4D921DD1C998DA500605BC8 /* AppDelegate.swift */,
-				F4D921DF1C998DA500605BC8 /* ViewController.swift */,
+				F4D921F11C998E1100605BC8 /* ViewController.swift */,
+				F4D921EF1C998DCA00605BC8 /* GameScene.swift */,
 				F4D921E11C998DA500605BC8 /* Main.storyboard */,
 				F4D921E41C998DA500605BC8 /* Assets.xcassets */,
 				F4D921E61C998DA500605BC8 /* LaunchScreen.storyboard */,
@@ -125,6 +135,7 @@
 				F4D921E81C998DA500605BC8 /* LaunchScreen.storyboard in Resources */,
 				F4D921E51C998DA500605BC8 /* Assets.xcassets in Resources */,
 				F4D921E31C998DA500605BC8 /* Main.storyboard in Resources */,
+				F4D921F81C99940F00605BC8 /* button03a.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D921E01C998DA500605BC8 /* ViewController.swift in Sources */,
+				F4D921F21C998E1100605BC8 /* ViewController.swift in Sources */,
+				F4D921F01C998DCA00605BC8 /* GameScene.swift in Sources */,
 				F4D921DE1C998DA500605BC8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
